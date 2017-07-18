@@ -1,2 +1,2 @@
 # ContainerNoCheckDigit
-An R language function to check Container Number's check digit based on ISO6346
+A R language function to check Container Number's check digit based on ISO6346
