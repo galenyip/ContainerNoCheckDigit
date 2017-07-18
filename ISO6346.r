@@ -30,11 +30,11 @@ calculateCheckDigit <- function(cntr_no) {
     return (sum_encode_check_digit)
 }
 
-# Test
-cntr_no <- 'CSQU3054383'
-result <- validCheckDigit(cntr_no)
-
-cntr_no_2 <- 'OOLU4681105'
-result_2 <- calculateCheckDigit(cntr_no_2)
+### Test - uncomment the below for testing
+# cntr_no <- 'CSQU3054383'
+# result <- validCheckDigit(cntr_no)
+#
+# cntr_no_2 <- 'OOLU4681105'
+# result_2 <- calculateCheckDigit(cntr_no_2)
 
 
