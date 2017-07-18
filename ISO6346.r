@@ -1,6 +1,6 @@
 validCheckDigit <- function(cntr_no) {
     encodeList <- unlist(strsplit('0123456789A?BCDEFGHIJK?LMNOPQRSTU?VWXYZ', split = ''))
-    cntr_no_split = as.list(unlist(strsplit(to_upper(cntr_no), split = '')))
+    cntr_no_split = as.list(unlist(strsplit(toupper(cntr_no), split = '')))
     
     # Details on algorithm can be found here https://en.wikipedia.org/wiki/ISO_6346#Check_Digit
     
@@ -16,7 +16,7 @@ validCheckDigit <- function(cntr_no) {
 
 calculateCheckDigit <- function(cntr_no) {
     encodeList <- unlist(strsplit('0123456789A?BCDEFGHIJK?LMNOPQRSTU?VWXYZ', split = ''))
-    cntr_no_split = as.list(unlist(strsplit(to_upper(cntr_no), split = '')))
+    cntr_no_split = as.list(unlist(strsplit(toupper(cntr_no), split = '')))
     
     # Details on algorithm can be found here https://en.wikipedia.org/wiki/ISO_6346#Check_Digit
     
